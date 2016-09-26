@@ -141,7 +141,7 @@ void problem2(){
 	
 	}
 	
-	
+//Main program	
 int main(){
 	int i, j, totalPrice;
 	problem1();
