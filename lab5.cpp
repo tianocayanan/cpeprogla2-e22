@@ -53,6 +53,7 @@ void NewLine(){
 	do{cin.get(s);}while(s!='\n');
 }
 
+//Function for problem #1
 void problem1(){
     Student stud;
     cout << "Enter Student Record: \n";
@@ -89,7 +90,7 @@ void problem1(){
     system("pause > 0");
 }
 
-
+//Function for problem #2
 void problem2(){
 	int i, j; 
 	float grade;
@@ -202,6 +203,6 @@ int main(){
 	}
 	
 	return 0;
-	
+	//End of program
 }
 
