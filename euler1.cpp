@@ -8,9 +8,9 @@ int main(){
 	int num;
 	
 	while (f>>num){
-	      int result = 0;
-     for (int j=0; j<num; j++){
-          if((j%3==0)||(j%5==0)){result+=j;}
+	      int result=0;
+        for (int j=0; j<num; j++){
+              if((j%3==0)||(j%5==0)){result+=j;}
      }
      cout<<result<<endl;
 	}
