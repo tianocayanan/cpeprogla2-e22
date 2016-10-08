@@ -14,5 +14,5 @@ int main(){
      }
      cout<<result<<endl;
 	}
-	system ("pause > 0");
+system ("pause > 0");
 }
