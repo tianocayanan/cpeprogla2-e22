@@ -3,18 +3,19 @@
 using namespace std;
 
 int main(){
+	ifstream f("input.txt");
+	int givNum1, givNum2;
     int arr[]={1,2,4,3};
     int x=0;
-    int givNum1, givNum2;
-
-    ifstream f("input.txt");
 	while (f>>givNum1>>givNum2){
-		for (int num=0; num<10; num++){
-    	givNum1+=arr[(x%4)];  
+		cout<<givNum1<<"";
+		givNum1+=arr[(x%4)];
+		for (givNum1; givNum1<=givNum2; givNum1+=arr[(x%4)]){
+		cout<<" "<<givNum1;  
         x++;
-        cout<<""<<givNum1;
+		}
 	}
-	}
-    //system("pause");
+	cout<<endl;
+	system("pause");
     return 0;
 }
